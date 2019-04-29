@@ -1,0 +1,406 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+  width: auto;
+  height: auto;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat-Black";
+  color: rgb(91, 123, 144);
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.heading-paragraph {
+  font-size: 1.1em;
+  text-align: center;
+  padding: 0 10%;
+}
+
+#heading-paragraph {
+  padding: 5%;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 7% 13%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: black;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+.gray-section {
+  background-color: lightgray;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 1rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 15px;
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-family: "Ubuntu";
+}
+
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title {
+  background-color: black;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 5% 6%;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 100%;
+  position: absolute;
+}
+
+/* Features Section */
+
+#about {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4%;
+}
+
+.icon {
+  color: rgb(91, 123, 144);
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: black;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  background-color: black;
+}
+
+.testimonial-text {
+  font-size: 2rem;
+  line-height: 1.5;
+  padding: 0 0 5% 0;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Information Section */
+
+.headshot-wrap {
+  width: 30%;
+  height: 30%;
+  min-width: 390px;
+  min-height: 497px;
+  margin: 50px;
+}
+
+img.headshot-wrap {
+  padding: 1rem;
+  margin: 5%;
+}
+
+.info-heading {
+  font-family: "Montserrat-Black";
+  color: rgb(91, 123, 144);
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.info-h2 {
+  font-family: "Montserrat-Black";
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: center;
+}
+
+#info-paragraph {
+  padding: 5%;
+}
+
+/* Footer Section */
+
+.social-icon {
+  margin: .75em .5em .25em .5em;
+}
+
+p.footer_margin {
+  margin-bottom: 0;
+  padding-bottom: .5em;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 960px) {
+  body {
+    width: auto;
+  }
+
+  /* ----------------------------------------------------------- */
+  /* Main Page Mobile */
+  /* ----------------------------------------------------------- */
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+
+  /* CONCIERGE MEDICINE */
+  .big-heading {
+    font-size: 2rem;
+  }
+
+  .heading-paragraph {
+    font-size: 1.5rem;
+  }
+
+  /* Navbar Hamburger */
+  .navbar-toggler {
+    height: 4em;
+    width: 4em;
+  }
+
+  /* Font inside of Navbar */
+  .nav-link {
+    font-size: 2.5rem;
+    padding: 30px;
+  }
+
+  /* 3 Icons */
+  .icon {
+    font-size: 10rem;
+  }
+
+  /* Icon Title */
+  .feature-title {
+    font-size: 2.5rem;
+  }
+
+  /* All Paragraphs */
+  p {
+    font-size: 1.2rem;
+  }
+
+  .testimonial-text {
+    font-size: 2rem;
+  }
+
+  .ytvideo {
+    width: 75%;
+    height: 75%;
+  }
+
+  /* Information Header */
+  .info-heading {
+    font-size: 2.5rem;
+  }
+
+  .info-h2 {
+    font-size: 1.5rem;
+  }
+
+  .social-icon {
+    font-size: 2rem;
+  }
+
+  /* Footer */
+
+  /* ----------------------------------------------------------- */
+  /* About Page Mobile */
+  /* ----------------------------------------------------------- */
+
+  img.about_section_photo {
+    width: 75%;
+    height: auto;
+    margin-bottom: 2rem;
+  }
+
+  /* ----------------------------------------------------------- */
+  /* Events Page Mobile */
+  /* ----------------------------------------------------------- */
+
+  .calendar {
+    height: 75%;
+    padding-bottom: 4rem;
+  }
+
+  /* ----------------------------------------------------------- */
+  /* FAQ Page Mobile */
+  /* ----------------------------------------------------------- */
+
+  .question-text {
+    font-size: 1.75em;
+  }
+
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5) {
+
+  html,
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+}
+
+/* ----------------------------------------------------------- */
+/* About Page CSS */
+/* ----------------------------------------------------------- */
+
+img.about_section_photo {
+  padding: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2em;
+}
+
+.h2_about_section {
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 1em;
+}
+
+.p_about_section {
+  text-align: center;
+  padding: 3em;
+}
+
+.jami-quote {
+  text-indent: 30px;
+  font-style: italic;
+}
+
+.about_section_hyperlink {
+  text-align: center;
+}
+
+/* ----------------------------------------------------------- */
+/* Tech Page CSS */
+/* ----------------------------------------------------------- */
+
+div.tech_coming_soon {
+  height: 25em;
+  background-color: black;
+}
+
+.h1_tech_section {
+  color: white;
+  margin-top: 3em;
+}
+
+/* ----------------------------------------------------------- */
+/* Testimonial Page CSS */
+/* ----------------------------------------------------------- */
+
+.testimonial_section {
+  background-color: black;
+}
+
+.test_video_left {
+  padding-bottom: 2.5em;
+}
+
+.test_video_right {
+  padding-bottom: 2.5em;
+}
+
+/* ----------------------------------------------------------- */
+/* FAQ Page CSS */
+/* ----------------------------------------------------------- */
+
+#faq_section {
+  padding: 3% 13%;
+}
+
+.question-text {
+  font-weight: bold;
+  color: rgb(91, 123, 144);
+}
+
+/* ----------------------------------------------------------- */
+/* Events Page CSS */
+/* ----------------------------------------------------------- */
+
+.calendar {
+  background-color: black;
+  padding-bottom: 4em;
+}
