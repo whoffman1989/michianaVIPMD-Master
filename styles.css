@@ -192,6 +192,36 @@ img.headshot-wrap {
   padding: 5%;
 }
 
+/* Payment Section  */
+
+.payment-heading {
+  color: rgb(91, 123, 144);
+  padding: 3em;
+}
+
+.payment-h2-heading {
+  text-decoration: underline;
+  margin-bottom: none;
+}
+
+.office-payments {
+  padding-top: 1em;
+  padding-bottom: 3.0em;
+}
+
+.payment-row {
+  background-color: black;
+}
+
+.payment-button-1 {
+  padding-top: 3.5em;
+}
+
+.payment-button-2 {
+  height: 5em;
+  width: 10em;
+}
+
 /* Footer Section */
 
 .social-icon {
@@ -306,6 +336,22 @@ p.footer_margin {
 
   .question-text {
     font-size: 1.75em;
+  }
+
+  /* ----------------------------------------------------------- */
+  /* PAYMENT Page Mobile */
+  /* ----------------------------------------------------------- */
+
+  .payment-heading {
+    padding: 1.75em;
+  }
+
+  .office-payments {
+    padding: 0 0 1.5em;
+  }
+
+  .payment-button-1 {
+    padding: 1.5em 0 2.5em;
   }
 
 }

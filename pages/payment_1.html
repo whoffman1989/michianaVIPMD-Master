@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale" />
-    <title>Michiana VIP MD - Tech</title>
+    <title>Michiana VIP MD - Payment</title>
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet" />
@@ -86,13 +86,48 @@
             </div>
         </div>
     </section>
-    <!-- Events -->
-    <div class="calendar">
-        <iframe
-            src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23999999&amp;src=michianavipmdtest%40gmail.com&amp;color=%23182C57&amp;ctz=America%2FIndiana%2FIndianapolis"
-            style="border:solid 1px #777" width="90%" height="750" frameborder="0" scrolling="no">
-        </iframe>
-    </div>
+    <!-- Payment Section -->
+    <section>
+        <div class="container">
+            <div class="row payment-heading">
+                <div class="col-lg-12">
+                    <h1>PAYMENT</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2 class="payment-h2-heading">In Office Payments</h2>
+                    <br>
+                    <div class="office-payments">
+                        <p>Cash</p>
+                        <p>Check</p>
+                        <p>Credit or Debit</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="payment-h2-heading">Online Payments</h2>
+                    <form class="payment-button-1" target="_blank"
+                        action="https://hosted.transactionexpress.com/Transaction/Transaction/Index" method="POST">
+                        <input type="hidden" name="HostedKey" id="HostedKey"
+                            value="95a806a9-bfe2-46f3-8432-a5d3421e40c4" />
+                        <input type="hidden" name="Gateway_ID" id="Gateway_ID" value="9127586403" />
+                        <input type="hidden" name="IndustryCode" id="IndustryCode" value="2" />
+                        <input type="hidden" name="Amount" id="Amount" value="" />
+                        <input type="hidden" name="RecurringType" id="RecurringType" value="N" />
+                        <input type="hidden" name="RecurringAmount" id="RecurringAmount" value="" />
+                        <input type="hidden" name="RURL" id="RURL"
+                            value="https://www.michianavipmd.com/payment_thankyou.html" />
+                        <input type="hidden" name="CURL" id="CURL" value="https://www.michianavipmd.com" />
+                        <input type="hidden" name="AVSRequired" id="AVSRequired" value="Y" />
+                        <input type="hidden" name="CVV2Required" id="CVV2Required" value="Y" />
+                        <input type="hidden" name="EmailRequired" id="EmailRequired" value="Y" />
+                        <input type="hidden" name="PostRspMsg" id="PostRspMsg" value="N" />
+                        <input type="Submit" name="Submit" id="Submit" value="Pay Now" class="btn btn-secondary payment-button-2" />
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- Footer -->
     <footer class="gray-section" id="footer">
         <div class="footer-padding">
