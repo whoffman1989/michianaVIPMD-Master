@@ -633,3 +633,21 @@ img.about_section_photo {
   background-color: black;
   padding-bottom: 4em;
 }
+
+/* ----------------------------------------------------------- */
+/* Thank You Payment Page CSS */
+/* ----------------------------------------------------------- */
+
+.thank_you {
+  background-color: black;
+}
+
+.h1_thank_you {
+  padding: 3.0em;
+  color: white;
+}
+
+.thank_you_link {
+  background-color: black;
+  padding: 3em;
+}
