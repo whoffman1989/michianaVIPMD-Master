@@ -79,25 +79,25 @@ if ($_POST['submit']) {
                             <a class="nav-link" href="../index.html">HOME</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="about_1.html">ABOUT</a>
+                            <a class="nav-link" href="../pages/about_1.html">ABOUT</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="tech_1.html">TECH</a>
+                            <a class="nav-link" href="../pages/tech_1.html">TECH</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="testimonials_1.html">TESTIMONIALS</a>
+                            <a class="nav-link" href="../pages/testimonials_1.html">TESTIMONIALS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="events_1.html">EVENTS</a>
+                            <a class="nav-link" href="../pages/events_1.html">EVENTS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="inthenews_1.html">IN THE NEWS</a>
+                            <a class="nav-link" href="../pages/inthenews_1.html">IN THE NEWS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="faq_1.html">FAQ</a>
+                            <a class="nav-link" href="../pages/faq_1.html">FAQ</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="payment_1.html">PAYMENT</a>
+                            <a class="nav-link" href="../pages/payment_1.html">PAYMENT</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="contact_1.html">CONTACT</a>
@@ -142,7 +142,7 @@ if ($_POST['submit']) {
               <input type="email" name="email" class="form-control" placeholder="Your Email" value="<?php echo $_POST['email']; ?>">
             </div>
             <div class="form-group">
-              <textarea name="message" rows="5" class="form-control" placeholder="Your Message..."><?php echo $_POST['message'];?></textarea>
+              <textarea name="message" rows="7" class="form-control" placeholder="Your Message..."><?php echo $_POST['message'];?></textarea>
             </div>
             <div class="checkbox">
               <label>
