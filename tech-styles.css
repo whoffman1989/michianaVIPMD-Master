@@ -192,3 +192,18 @@ body {
         font-size: 13px;
     }
 }
+
+@media (min-width:1201px) {
+
+    /* <- 5-4  hexagons per row */
+    #hexGrid {
+        padding-bottom: 5.8%;
+        padding-top: 1%;
+        padding-right: 2.6%;
+    }
+
+    .hex:nth-child(9n+6) {
+        /* first hexagon of even rows */
+        grid-column-start: 2;
+    }
+}
