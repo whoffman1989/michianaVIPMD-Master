@@ -693,6 +693,11 @@ ul.in-the-news {
   background-color: black;
 }
 
+.news-image {
+  height: 150px;
+  width: 150px;
+}
+
 .media {
   padding: 1em;
   background-color: white;
